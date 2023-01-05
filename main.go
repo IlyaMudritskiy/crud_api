@@ -110,5 +110,4 @@ func main() {
 
 	fmt.Println("Starting server at port 8000")
 	log.Fatal(http.ListenAndServe(":8000", router))
-
 }
